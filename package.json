@@ -4,6 +4,8 @@
   "description": "Sample project to connect to azure service bus using nodejs",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
     "test": "test"
   },
   "repository": {

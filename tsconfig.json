@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"module": "commonjs",
+		"outDir": "dist",
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"allowUnreachableCode": false,
+		"noImplicitThis": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+	},
+	"typedocOptions": {
+		"mode": "file",
+		"out": "docs",
+		"media": "./media",
+		"hideGenerator": "true"
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

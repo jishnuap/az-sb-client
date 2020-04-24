@@ -1,3 +1,3 @@
-# Sample client to correlate messages using Azure Service Bus
+# Azure Service Bus Client
 
 This is a sample application to correlate messages using azure service bus
